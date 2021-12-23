@@ -4,8 +4,8 @@ import Check from "../assets/check-circle.svg";
 function Why() {
     return (
         <div className="w-full py-12">
-            <div className="w-99 mx-auto space-y-4 text-accent">
-                <h1 className="text-accent text-5xl font-bold font-primary leading-11">Warum braucht es einen Medienkodex?</h1>
+            <div className=" w-94 p-3 xl:w-99 xl:mx-auto xl:space-y-4 text-accent">
+                <h1 className="text-accent text-2xll xl:text-5xl font-bold font-primary xl:leading-11">Warum braucht es einen Medienkodex?</h1>
                 <div className="flex pt-6">
                     <span className="pt-1"><Check className="w-5" /></span>
                     <span className="font-normal ml-4">Die<span className="font-bold"> Gewalt gegen Medienschaffende</span>nimmt in Deutschland immer mehr zu.</span>
@@ -32,10 +32,10 @@ function Why() {
                 </div>
             </div>
 
-            <div className="w-full mx-auto flex justify-center py-5">
-                <iframe className="mr-5" width="560" height="315" src="https://www.youtube.com/embed/a00NRSFgHsY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe className="ml-5" width="560" height="315" src="https://www.youtube.com/embed/a00NRSFgHsY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
+            <div className="xl:flex xl:space-x-3 py-5 justify-center">
+                <iframe  className="rounded md:w-98 xl:h-72 h-48 w-full" src="https://www.youtube.com/embed/a00NRSFgHsY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe  className="rounded md:w-98 xl:h-72 h-48 w-full pt-8 md:pt-0" src="https://www.youtube.com/embed/a00NRSFgHsY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
         </div>
     )
 }

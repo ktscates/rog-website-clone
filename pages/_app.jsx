@@ -22,7 +22,7 @@ function MyApp() {
       <Twitter />
       <Journalist />
       <Logo />
-      <Footer />
+      <Footer /> 
     </div>
   );
 }

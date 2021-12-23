@@ -37,22 +37,23 @@ function Twitter() {
     ]
 
     return(
-        <div className="bg-secondary p-16 w-full">
-            <h1 className="text-center text-designBlack text-3xxl font-bold">#medienkodex auf Twitter</h1>
-            <div className="flex flex-wrap gap-4 w-2/3 mx-auto py-10">
-                {data.map((item) => {
-                    return(
-                        <div className="w-96 h-40 font-secondary bg-white text-designBlack text-lggg text-left p-3 rounded-md">
-                            <p className="">{item.tweet}</p>
-                            <div className="">
-                                <span><Share className="w-5 mt-2" /></span>
-                                <span className=""><p className="-mt-6 ml-7 underline">{item.text}</p></span>
+        <div className="bg-secondary xl:p-16 w-full">
+            <div className="py-6">
+                <h1 className="text-2xll text-center text-designBlack xl:text-3xxl font-bold">#medienkodex auf Twitter</h1>
+                <div className="py-5 xl:flex xl:flex-wrap xl:gap-4 xl:w-2/3 xl:mx-auto xl:py-10">
+                    {data.map((item) => {
+                        return(
+                            <div className="w-80 w-48 mx-auto xl:w-96 xl:h-40 font-secondary bg-white text-designBlack text-lggg text-left p-3 rounded-md xl:mb-0 mb-5 py-5">
+                                <p className="">{item.tweet}</p>
+                                <div className="">
+                                    <span><Share className="w-5 mt-2" /></span>
+                                    <span className=""><p className="-mt-6 ml-7 underline">{item.text}</p></span>
+                                </div>
                             </div>
-                        </div>
-                    )
-                })}
+                        )
+                    })}
+                </div>
             </div>
-            
         </div>
     )
 }

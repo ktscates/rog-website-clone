@@ -43,9 +43,10 @@ function What() {
       };
     return(
         <div className="w-full py-16">
-            <div className="w-1/2 mx-auto text-center space-y-2 text-accent">
-                <h1 className="text-accent text-5xl font-bold font-primary leading-11">Was ist der Medienkodex?</h1>
-
+            <div className="xl:w-1/2 xl:mx-auto xl:space-y-2 text-accent p-1">
+                <h1 className="text-accent text-2xll xl:text-5xl font-bold font-primary xl:leading-11">Was ist der Medienkodex?</h1>
+                <p>Der Kodex  umfasst Standards für Medienhäuser und konkrete Schutzmaßnahmen zur Unterstützung von Journalist*innen:
+</p>
                 <div className="bg-primary text-left p-5 m-5">
                     {data.map(({title, content}) => (
                         <Accordion className="my-5" title={title} content={content} />
