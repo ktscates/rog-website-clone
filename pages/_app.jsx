@@ -1,5 +1,4 @@
 import "../styles/global.css"
-import Navbar from "../component/Navbar";
 import Header from "../component/Header"
 import Partner from "../component/Partner";
 import Why from "../component/Why";
@@ -13,7 +12,6 @@ import Footer from "../component/Footer";
 function MyApp() {
   return (
     <div>
-      {/* <Navbar /> */}
       <Header />
       <Partner />
       <Why />
